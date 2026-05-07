@@ -4,4 +4,4 @@ sqlalchemy
 python-multipart
 python-jose[cryptography]
 passlib[bcrypt]
-bcrypt
+bcrypt==4.3.0
