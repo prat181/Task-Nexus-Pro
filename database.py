@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 db_path = os.path.join(BASE_DIR, "taskmanager.db")
 
 # We use that safe path for the database URL
-SQLALCHEMY_DATABASE_URL = f"sqlite:///{db_path}"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./taskmanager.db"
 # ----------------------------
 
 engine = create_engine(
